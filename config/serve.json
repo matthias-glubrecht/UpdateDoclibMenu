@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "c85aa61b-e557-495a-9351-9c17c20ab9eb": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "configs": [
+              {
+                "Libraries": ["Documents"],
+                "AllowedCommands": {
+                  "Level0": ["newFolderCommand"],
+                  "Level1": ["newFolderCommand", "uploadFile"],
+                  "Level2": ["newFolderCommand", "uploadFile", "uploadFolder", "NewDOCCustomerDocument"]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "updateMenu": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "customActions": {
+        "c85aa61b-e557-495a-9351-9c17c20ab9eb": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "configs": [
+              {
+                "Libraries": ["Documents"],
+                "AllowedCommands": {
+                  "Level0": ["newFolderCommand"],
+                  "Level1": ["newFolderCommand", "uploadFile"],
+                  "Level2": ["newFolderCommand", "uploadFile", "uploadFolder", "NewDOCCustomerDocument"]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

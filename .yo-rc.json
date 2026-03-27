@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.17.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "update-doclib-menu",
+    "libraryId": "1436c732-41f2-4371-9cb0-83d01532e054",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "update-doclib-menu",
+    "solutionShortDescription": "update-doclib-menu description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
