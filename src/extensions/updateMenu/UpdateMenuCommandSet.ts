@@ -147,12 +147,12 @@ export default class UpdateMenuCommandSet extends BaseListViewCommandSet<IUpdate
 
     // Hide all menu items with a data-automationid...
     const rules: string[] = [
-      'li.ms-ContextualMenu-item:has(> button[data-automationid]) { display: none !important; }'
+      'div#command-bar-menu-id li.ms-ContextualMenu-item:has(> button[data-automationid]) { display: none !important; }'
     ];
 
     // ...then show back the whitelisted ones
     for (let i: number = 0; i < allowedCommands.length; i++) {
-      rules.push('li.ms-ContextualMenu-item:has(> button[data-automationid="' + allowedCommands[i] + '"]) { display: list-item !important; }');
+      rules.push('div#command-bar-menu-id li.ms-ContextualMenu-item:has(> button[data-automationid="' + allowedCommands[i] + '"]) { display: list-item !important; }');
     }
 
     const css: string = rules.join('\n');

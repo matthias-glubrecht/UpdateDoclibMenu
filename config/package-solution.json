@@ -3,7 +3,7 @@
   "solution": {
     "name": "update-doclib-menu-client-side-solution",
     "id": "1436c732-41f2-4371-9cb0-83d01532e054",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

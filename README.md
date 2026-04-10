@@ -116,6 +116,12 @@ This registers the extension as a Custom Action with `-Scope Site`, so it applie
 .\powershell\remove.ps1 -SiteCollectionUrl "https://contoso.sharepoint.com/sites/yoursite"
 ```
 
-## Version
+## Changelog
 
-1.0.0
+### 1.0.1
+
+- Fixed a bug that inadvertently hid the context menu of items in the list view
+
+### 1.0.0
+
+- Initial release
