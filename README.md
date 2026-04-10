@@ -118,6 +118,10 @@ This registers the extension as a Custom Action with `-Scope Site`, so it applie
 
 ## Changelog
 
+### 1.0.2
+
+- Scoped CSS selectors to only target the "New" menu (`div[class*="contextMenu_"]`), avoiding interference with other menus (e.g. the horizontal "Open" menu on documents)
+
 ### 1.0.1
 
 - Fixed a bug that inadvertently hid the context menu of items in the list view
